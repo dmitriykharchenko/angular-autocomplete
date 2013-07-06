@@ -1,0 +1,5 @@
+<ul ng-show="0 < list.length">
+  <li ng-repeat="item in list | filter: {name: term}">
+    {{ item.name }}
+  </li>
+</ul>
